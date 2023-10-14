@@ -1,0 +1,5 @@
+count
+demesne_size
+realm_size
+
+TODO: add other comparisons that might fail

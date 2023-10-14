@@ -1,0 +1,12 @@
+targeted_decisions = {
+	testing_test_event = {
+		ai = no
+		filter = self
+		potential = {}
+		allow = {}
+		effect = {
+			character_event = { id = TESTING.1 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

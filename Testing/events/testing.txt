@@ -1,0 +1,32 @@
+namespace = TESTING
+
+character_event = {
+	id = TESTING.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		character_event = { id = TESTING.2 } # place the test event here
+	}
+}
+
+character_event = {
+	id = TESTING.2
+	desc = EVTDESC_TESTING_2
+	picture = GFX_evt_peasants
+
+	is_triggered_only = yes
+	ai = no
+
+	trigger = {}
+
+	immediate = {}
+
+	option = {
+		name = EVTOPTA_TESTING_2
+
+		wealth = 1000
+	}
+
+	after = {}
+}
