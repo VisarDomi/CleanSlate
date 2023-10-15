@@ -1,4 +1,4 @@
 testing_test_event;Start testing;;;;;;;;;;;;;x
 testing_test_event_desc;Testing an event;;;;;;;;;;;;;x
-EVTDESC_TICKS_2;You found some money.;;;;;;;;;;;;;x
-EVTOPTA_TICKS_2;That's great!;;;;;;;;;;;;;x
+EVTDESC_TESTING_2;You found some money.;;;;;;;;;;;;;x
+EVTOPTA_TESTING_2;That's great!;;;;;;;;;;;;;x
