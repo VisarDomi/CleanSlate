@@ -1,4 +1,7 @@
 testing_test_event;Start testing;;;;;;;;;;;;;x
 testing_test_event_desc;Testing an event;;;;;;;;;;;;;x
-EVTDESC_TESTING_2;You found some money.;;;;;;;;;;;;;x
-EVTOPTA_TESTING_2;That's great!;;;;;;;;;;;;;x
+EVTDESC_TESTING;Let us see the evaluations.;;;;;;;;;;;;;x
+EVTOPTA_TESTING;Evaluation should be TRUE. Option should be shown.;;;;;;;;;;;;;x
+EVTOPTB_TESTING;NOT Evaluation should be TRUE. Option should NOT be shown.;;;;;;;;;;;;;x
+EVTOPTC_TESTING;Evaluation should be FALSE. Option should NOT be shown.;;;;;;;;;;;;;x
+EVTOPTD_TESTING;NOT Evaluation should be FALSE. Option should be shown.;;;;;;;;;;;;;x

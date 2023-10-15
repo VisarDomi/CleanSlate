@@ -3,21 +3,62 @@ character_event = {
 	id = TESTING.1
 	hide_window = yes
 	is_triggered_only = yes
-	immediate = { character_event = { id = TESTING.2 } } # place the test event here
+	immediate = {
+		character_event = { id = TESTING.101 } # count
+	}
 }
+
 character_event = {
-	id = TESTING.2
-	desc = EVTDESC_TESTING_2
-	picture = GFX_evt_council
+	id = TESTING.101
+	desc = EVTDESC_TESTING
+	picture = GFX_evt_throne_room
 	is_triggered_only = yes
 	ai = no
-	trigger = {
-		realm_size < 2
-	}
+	trigger = {}
 	immediate = {}
 	option = {
-		name = EVTOPTA_TESTING_2
-		wealth = 1000
+		name = EVTOPTA_TESTING
+
+		trigger = {
+			any_child = {
+				count < 10
+				is_female = no
+			}
+		}
+	}
+	option = {
+		name = EVTOPTB_TESTING
+
+		trigger = {
+			NOT = {
+				any_child = {
+					count < 10
+					is_female = no
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_TESTING
+
+		trigger = {
+			any_child = {
+				count < 2
+				is_female = no
+			}
+		}
+	}
+	option = {
+		name = EVTOPTD_TESTING
+
+		trigger = {
+			NOT = {
+				any_child = {
+					count < 2
+					is_female = no
+				}
+			}
+		}
 	}
 	after = {}
 }
