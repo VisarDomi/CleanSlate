@@ -860,6 +860,7 @@ guiTypes = {
 					buttonFont = "vic_22"
 					buttonText = "DIP_PERFORM_ACTION"
 					clickSound = generic_click_04
+					shortcut = "c"
 				}
 
 				iconType = {
