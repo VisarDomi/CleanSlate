@@ -11,7 +11,9 @@ character_event = {
 	picture = GFX_evt_council
 	is_triggered_only = yes
 	ai = no
-	trigger = {}
+	trigger = {
+		realm_size < 2
+	}
 	immediate = {}
 	option = {
 		name = EVTOPTA_TESTING_2

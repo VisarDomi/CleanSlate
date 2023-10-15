@@ -1,5 +1,5 @@
-count
-demesne_size
-realm_size
+count - broken
+demesne_size - broken
+realm_size - works
 
 TODO: add other comparisons that might fail
