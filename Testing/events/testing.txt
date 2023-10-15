@@ -4,13 +4,16 @@ character_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
-		character_event = { id = TESTING.101 } # count
+		# 1066 start date, byzantine emperor
+		character_event = { id = TESTING.101 } # count - fail
+		character_event = { id = TESTING.102 } # demesne_size - fail
+		character_event = { id = TESTING.103 } # realm_size - pass
 	}
 }
 
 character_event = {
 	id = TESTING.101
-	desc = EVTDESC_TESTING
+	desc = EVTDESC_TESTING_101
 	picture = GFX_evt_throne_room
 	is_triggered_only = yes
 	ai = no
@@ -57,6 +60,90 @@ character_event = {
 					count < 2
 					is_female = no
 				}
+			}
+		}
+	}
+	after = {}
+}
+character_event = {
+	id = TESTING.102
+	desc = EVTDESC_TESTING_102
+	picture = GFX_evt_throne_room
+	is_triggered_only = yes
+	ai = no
+	trigger = {}
+	immediate = {}
+	option = {
+		name = EVTOPTA_TESTING
+
+		trigger = {
+			demesne_size < 10
+		}
+	}
+	option = {
+		name = EVTOPTB_TESTING
+
+		trigger = {
+			NOT = {
+				demesne_size < 10
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_TESTING
+
+		trigger = {
+			demesne_size < 2
+		}
+	}
+	option = {
+		name = EVTOPTD_TESTING
+
+		trigger = {
+			NOT = {
+				demesne_size < 2
+			}
+		}
+	}
+	after = {}
+}
+character_event = {
+	id = TESTING.103
+	desc = EVTDESC_TESTING_103
+	picture = GFX_evt_throne_room
+	is_triggered_only = yes
+	ai = no
+	trigger = {}
+	immediate = {}
+	option = {
+		name = EVTOPTA_TESTING
+
+		trigger = {
+			realm_size < 1000
+		}
+	}
+	option = {
+		name = EVTOPTB_TESTING
+
+		trigger = {
+			NOT = {
+				realm_size < 1000
+			}
+		}
+	}
+	option = {
+		name = EVTOPTC_TESTING
+
+		trigger = {
+			realm_size < 10
+		}
+	}
+	option = {
+		name = EVTOPTD_TESTING
+
+		trigger = {
+			NOT = {
+				realm_size < 10
 			}
 		}
 	}

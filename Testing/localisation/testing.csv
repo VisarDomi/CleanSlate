@@ -1,7 +1,9 @@
-testing_test_event;Start testing;;;;;;;;;;;;;x
-testing_test_event_desc;Testing an event;;;;;;;;;;;;;x
-EVTDESC_TESTING;Let us see the evaluations.;;;;;;;;;;;;;x
+testing_test_event;Start testing events;;;;;;;;;;;;;x
+testing_test_event_desc;Testing events;;;;;;;;;;;;;x
 EVTOPTA_TESTING;Evaluation should be TRUE. Option should be shown.;;;;;;;;;;;;;x
 EVTOPTB_TESTING;NOT Evaluation should be TRUE. Option should NOT be shown.;;;;;;;;;;;;;x
 EVTOPTC_TESTING;Evaluation should be FALSE. Option should NOT be shown.;;;;;;;;;;;;;x
 EVTOPTD_TESTING;NOT Evaluation should be FALSE. Option should be shown.;;;;;;;;;;;;;x
+EVTDESC_TESTING_101;count;;;;;;;;;;;;;x
+EVTDESC_TESTING_102;demesne_size;;;;;;;;;;;;;x
+EVTDESC_TESTING_103;realm_size;;;;;;;;;;;;;x
