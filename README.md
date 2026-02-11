@@ -1,3 +1,5 @@
+> **ARCHIVED**: This is a fork of the CK2 community mod base. Can be deleted and re-forked from [the original](https://github.com/CK2Plus/CleanSlate) if needed.
+
 CleanSlate
 
 Master Changelog
